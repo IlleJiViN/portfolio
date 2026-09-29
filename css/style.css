@@ -5,7 +5,7 @@ html { scroll-behavior:smooth; scroll-padding-top:5.5rem; }
 body { margin:0; background:var(--bg); color:var(--text); font-family:Inter, Pretendard, "Noto Sans KR", system-ui, sans-serif; font-size:16px; line-height:1.65; transition:background .25s,color .25s; }
 a { color:inherit; text-decoration:none; } button,input,textarea { font:inherit; } button { cursor:pointer; } 
 .site-header { position:sticky; top:0; z-index:10; background:color-mix(in srgb,var(--bg) 92%,transparent); backdrop-filter:blur(14px); border-bottom:1px solid transparent; transition:.25s; }
-.site-header.scrolled { border-color:var(--line); box-shadow:0 3px 14px rgba(15,23,42,.05); }
+.site-header.scrolled { background:var(--surface); border-color:var(--line); box-shadow:0 3px 14px rgba(15,23,42,.05); }
 .navbar { width:min(100% - 2rem,var(--content)); min-height:4.7rem; margin:auto; display:flex; align-items:center; justify-content:space-between; position:relative; }
 .brand { font-size:1.15rem; font-weight:850; letter-spacing:-.05em; }.brand span,.eyebrow { color:var(--primary); }
 .nav-actions { display:flex; align-items:center; gap:.65rem; }.theme-toggle,.menu-toggle { border:1px solid var(--line); background:var(--surface); color:var(--text); border-radius:10px; width:2.55rem; height:2.55rem; display:grid; place-items:center; transition:.2s; }.theme-toggle:hover,.menu-toggle:hover { border-color:var(--primary); color:var(--primary); }
