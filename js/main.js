@@ -159,7 +159,9 @@ const initForm = () => {
 const init = () => {
   document.querySelector('#current-year').textContent = new Date().getFullYear();
   document.querySelector('#github-link').href = `https://github.com/${GITHUB_USERNAME}`;
-  initTheme(); initNavigation(); initForm(); initScrollAnimations();
+  initTheme();
+  themeButton.addEventListener('click', toggleTheme);
+  initNavigation(); initForm(); initScrollAnimations();
   window.addEventListener('scroll', renderScrollState, { passive: true });
   scrollTopButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   renderScrollState(); renderProjects(); fetchProjects();
