@@ -1,5 +1,5 @@
 // GitHub ID만 변경하면 프로젝트 목록 API가 해당 계정의 저장소를 요청합니다.
-const GITHUB_USERNAME = 'YOUR_GITHUB_ID';
+const GITHUB_USERNAME = 'IlleJiViN';
 const NAVBAR_SCROLL_Y = 60;
 const SCROLL_TOP_Y = 300;
 const OBSERVER_THRESHOLD = 0.2;

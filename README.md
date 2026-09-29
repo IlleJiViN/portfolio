@@ -42,8 +42,7 @@ Event → State → Render → DOM
 
 # 실행 방법
 
-1. `portfolio/js/main.js` 상단의 `GITHUB_USERNAME`을 GitHub ID로 바꿉니다.
-2. `portfolio/index.html`을 브라우저에서 엽니다. 로컬 서버 사용 시 더 안정적으로 확인할 수 있습니다.
+1. `portfolio/index.html`을 브라우저에서 엽니다. 로컬 서버 사용 시 더 안정적으로 확인할 수 있습니다.
 
 # GitHub Pages 배포 방법
 
@@ -53,7 +52,7 @@ Event → State → Render → DOM
 
 # 배포 URL
 
-(배포 후 작성)
+https://illejivin.github.io/portfolio/
 
 # Screenshot
 
