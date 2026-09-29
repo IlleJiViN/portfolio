@@ -56,9 +56,17 @@ https://illejivin.github.io/portfolio/
 
 # Screenshot
 
-- Desktop
-- Mobile
-- Dark Mode
+### Desktop
+
+![Desktop portfolio screenshot](images/desktop.png)
+
+### Mobile
+
+![Mobile portfolio screenshot](images/mobile.png)
+
+### Dark Mode
+
+![Dark mode portfolio screenshot](images/dark-mode.png)
 
 # 구현 기준값
 
